@@ -1,4 +1,4 @@
-package com.example.demo.Entity;
+package com.example.demo.entity;
 
 
 import jakarta.persistence.*;
@@ -61,7 +61,7 @@ public class Employee {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
+    //toString
     @Override
     public String toString() {
         return "Employee{" +
@@ -71,5 +71,5 @@ public class Employee {
                 ", lastName='" + lastName + '\'' +
                 '}';
     }
-//toString
+
 }
